@@ -8,7 +8,7 @@ An Arduino Uno R3 Morse code transmitter simulator. It takes T9 multi-tap keypad
 
 Here is the Morse code simulator in action:
 
-![Simulation Demo](Diagrams\Demo.gif)
+![Simulation Demo](\Diagrams\Demo.gif)
 
 ---
 
