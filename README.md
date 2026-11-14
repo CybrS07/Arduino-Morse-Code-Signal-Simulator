@@ -8,7 +8,7 @@ An Arduino Uno R3 Morse code transmitter simulator. It takes T9 multi-tap keypad
 
 Here is the Morse code simulator in action:
 
-![Simulation Demo](\Diagrams\Demo.gif)
+![Simulation Demo](Diagrams/Demo.gif)
 
 ---
 
@@ -23,7 +23,7 @@ Here is the Morse code simulator in action:
 | **$220\ \Omega$ Resistors** | 2 | Current limiting for the signal LED and LCD backlight |
 | **Breadboard & Jumper Wires** | 1 | For power distribution and connections |
 
-![Components List](Diagrams\Compnents.png)
+![Components List](Diagrams/Components.png)
 
 ---
 
@@ -68,10 +68,10 @@ Here is the Morse code simulator in action:
 ## 📐 Circuit Diagram & Schematics
 
 ### Breadboard Layout
-![Circuit Diagram](Diagrams\Circuits%20.png)
+![Circuit Diagram](Diagrams/Circuits.png)
 
 ### Schematic View
-![Circuit Schematic](Diagrams\schematics.png)
+![Circuit Schematic](Diagrams/schematics.png)
 
 ---
 
@@ -81,14 +81,14 @@ Here is the physical prototype in action translating text into Morse code signal
 
 | Hardware Setup | Wiring Overview | Live Morse Transmission |
 | :---: | :---: | :---: |
-| ![Build Setup 1](REAL_BUILD\build_connect1.jpg) | ![Build Setup 2](REAL_BUILD\build_connect2.jpg) | ![Live Output](REAL_BUILD\build_connect3.jpg) |
+| ![Build Setup 1](REAL_BUILD/build_connect1.jpg) | ![Build Setup 2](REAL_BUILD/build_connect2.jpg) | ![Live Output](REAL_BUILD/build_connect3.jpg) |
 
 ---
 
 ## 🚀 How to Use
 1. **Wire the Circuit:** Follow the pinout tables or the schematic diagram above.
 2. **Upload the Code:** Open `sketch_nov11a.ino` in the Arduino IDE, ensure the `Keypad` and `LiquidCrystal` libraries are installed, and upload it to your Arduino Uno R3.
-3. **Type & Transmit:** 
+3. **Type & Transmit:**
    - Use the **4x4 keypad** to type characters (press a key multiple times to cycle through letters, just like an old Nokia phone).
    - Press **`#`** to confirm and transmit the message.
    - Watch the **LCD** display the Morse code translation while the **LED** blinks the signal pulses (dots and dashes).
