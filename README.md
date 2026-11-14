@@ -4,6 +4,14 @@ An Arduino Uno R3 Morse code transmitter simulator. It takes T9 multi-tap keypad
 
 ---
 
+## 💻 Simulation Demo
+
+Here is the Morse code simulator in action:
+
+![Simulation Demo](Diagrams\Demo.gif)
+
+---
+
 ## 🛠️ Components Required
 
 | Component | Quantity | Notes |
@@ -15,7 +23,7 @@ An Arduino Uno R3 Morse code transmitter simulator. It takes T9 multi-tap keypad
 | **$220\ \Omega$ Resistors** | 2 | Current limiting for the signal LED and LCD backlight |
 | **Breadboard & Jumper Wires** | 1 | For power distribution and connections |
 
-![Components List](Compnents.png)
+![Components List](Diagrams\Compnents.png)
 
 ---
 
@@ -60,10 +68,10 @@ An Arduino Uno R3 Morse code transmitter simulator. It takes T9 multi-tap keypad
 ## 📐 Circuit Diagram & Schematics
 
 ### Breadboard Layout
-![Circuit Diagram](Circuits%20.png)
+![Circuit Diagram](Diagrams\Circuits%20.png)
 
 ### Schematic View
-![Circuit Schematic](schematics.png)
+![Circuit Schematic](Diagrams\schematics.png)
 
 ---
 
@@ -73,7 +81,7 @@ Here is the physical prototype in action translating text into Morse code signal
 
 | Hardware Setup | Wiring Overview | Live Morse Transmission |
 | :---: | :---: | :---: |
-| ![Build Setup 1](build_connect1.jpg) | ![Build Setup 2](build_connect2.jpg) | ![Live Output](build_connect3.jpg) |
+| ![Build Setup 1](REAL_BUILD\build_connect1.jpg) | ![Build Setup 2](REAL_BUILD\build_connect2.jpg) | ![Live Output](REAL_BUILD\build_connect3.jpg) |
 
 ---
 
